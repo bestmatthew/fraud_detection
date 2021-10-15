@@ -1,10 +1,17 @@
-# Galvanize DSI Fraud Detection Case Study
+# Galvanize DSI Fraud Detection Case Study #
+
 [Becky Peters](https://github.com/beckyepeters)
+
 [Matthew Best](https://github.com/bestmatthew)
+
 [Tony Nguyen](https://github.com/tonyn513)
-August 2021
+
+Galvanize School - August 2021
 
 [Presentation Slides](https://docs.google.com/presentation/d/1dpa3oKvp2XuNfvDFgcGies4ufp-jwB7H2DN3XJqLj2A/edit?usp=sharing)
+
++++++
+
 [Presentation Video](https://youtu.be/w7iBL8Y5tfc)
 
 ## Background and Motivation 
