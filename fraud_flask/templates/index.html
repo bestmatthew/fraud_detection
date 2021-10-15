@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        h1 {text-align: center;}
+        body{text-align: center;}
+    </style>
+<body>
+
+<h1>Fraud Detector 9003</h1>
+
+<span>Copy a Row of Event Data from the file; paste it here as a list:</span> <input id='input_1'></input><br>
+
+<button type="button" id="submit">Submit info to FraudDectector9003</button>
+
+<p id=result>{{model_result}}</p>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script type=text/javascript>
+
+    let display_results = function(data) {
+        $("p#result").text(data.model_result);
+    }
+
+    let send_data = function() {
+        $.getJSON('/model', {
+            input_1: $('input[id="input_1"]').val()
+        }, display_results);
+    }
+
+    $(function() {
+        $('button#submit').click(send_data);
+    });
+    
+</script>
+</body> 
+</html>
+
