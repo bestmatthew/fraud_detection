@@ -33,7 +33,7 @@ Figure 3: Event Types in Top 5 Countries Represented in the Data
 ![top5](images/top5.png)
 
 Figure 4: Event Name Length Distributions among Fraudulent and Legitimate Events
-![name_length](images/name_length)
+![name_length](images/name_length.png)
 
 ## Cleaning and Modeling the Data
 
